@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="<link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Balance</title>
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body class="scroll-page">
+
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6"></div>
+                <div class="col-6 d-flex justify-content-end fw-medium">
+                    <a href="#" style="color: #fff; text-decoration: none; margin-right: 10px;" data-bs-toggle="modal"
+                        data-bs-target="#loginModal">Entrar</a>
+                    <a href="../pages/cadastro.html" style="color:#fff; text-decoration: none;">Cadastrar</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Senha</label>
+                            <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
+                        </div>
+                        <a href="../pages/inicio.html" class="btn btn-primary">Entrar</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-none">
+        <div class="container">
+            <img class="logo img-fluid d-none d-lg-block" src="../images/logo_balance.png" alt="Logomarca">
+            <img class="logob img-fluid d-lg-none" src="../images/b.png" alt="Logomarca pequena">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto my-auto mb-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link fw-semibold" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item fw-semibold">
+                        <a class="nav-link" href="./sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item fw-semibold">
+                        <a class="nav-link" href="../pages/precos.html">Preços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="../pages/cotacoes.html">Cotações</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="../pages/contato.html">Contato</a>
+                    </li>
+                </ul>
+                <a href="https://wa.me/5511000000000" target="_blank">
+                    <img src="../images/WA.gif" alt="Linkedin">
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="../images/Instagram.gif" alt="Instagram">
+                </a>
+                <a href="https://www.linkedin.com" target="_blank">
+                    <img src="../images/Linkedin.gif" alt="Linkedin">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <h3 class="container-fluid text-center my-5 fw-semibold">Fortaleça seu futuro financeiro. Controle, economize,
+        prospere.</h3>
+
+    <div id=" carouselExampleAutoplaying" class="carousel slide my-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../images/Calculadora.jpg" class="d-block w-100" alt="Imagem de calculadora">
+            </div>
+            <div class="carousel-item">
+                <img src="../images/Cartões.jpg" class="d-block w-100" alt="Imagem de cartões de crédito">
+            </div>
+            <div class="carousel-item">
+                <img src="../images/Laptop.jpg" class="d-block w-100" alt="Imagens de laptop com gráficos">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="apple text-center my-5">
+        <a href="https://apps.apple.com/br/app/apple-store/id375380948" target="_blank">
+            <img src="../images/AppStore.jpg" alt="App Store" style="max-height: 50px;"/>
+        </a>
+    </div>
+    <div class="androide text-center my-5">
+        <a href="https://play.google.com/store/apps/details?id=seu-pacote-de-aplicativo" target="_blank">
+            <img src="../images/PlayStore.jpg" alt="Play Store" style="max-height: 50px;" />
+        </a>
+    </div>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <p style="color: #fff;">| &copy; 2023 RM550652 |</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="caminho/para/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
